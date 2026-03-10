@@ -84,11 +84,11 @@ h1, h2, h3, h4, h5 {
 	color: #464a52;
 }
 .grey {
-	color: #8d8d8d;
+	color: #0a2463;
 }
 
 a {
-	color: #07ad87;
+	color: #0066ff;
 	border:0;
 }
 
@@ -132,7 +132,7 @@ a, a:hover, .element-bottom li, .element-bottom li:hover, #workSlider .carousel-
 .small-blk-btn {
 	font-size: 13px;
 	color: #ffffff;
-	background: #07ad87;	
+	background: #0066ff;	
 	padding: 10px 15px 10px 15px;
 	display: inline-block;
 	margin: 5px 0;
@@ -155,11 +155,11 @@ h3.subpage-title {
     text-decoration: none;
     text-transform: uppercase;
 	line-height: 30px;
-	color: #07ad87;
+	color: #0066ff;
 }
 h3.subpage-title span {
 	display:inline-block;
-	border-bottom:2px solid #07ad87;
+	border-bottom:2px solid #0066ff;
 }
 
 
@@ -187,7 +187,7 @@ ul.social li a {
 }
 
 ul.social li a:hover, ul.social li a:focus  {
-	background: #07ad87;
+	background: #0066ff;
 	color: #2f323a;
 }
 
@@ -206,7 +206,7 @@ ul.main-menu {
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
 	padding: 9px 15px;
 	font-weight: bold;
-	color: #07ad87;
+	color: #0066ff;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -235,7 +235,7 @@ ul.main-menu li:last-child a {
 }
 
 ul.main-menu li a:hover, ul.main-menu li a:focus {
-	color: #07ad87;
+	color: #0066ff;
 	text-decoration:none;
 	border:0;
 }
@@ -249,17 +249,17 @@ a.resp-menu-btn {
 }
 
 a.resp-menu-btn:hover {
-	background: #07ad87;
+	background: #0066ff;
 }
 ul.main-menu a.current {
-	background: #07ad87;
+	background: #0066ff;
 	color: #ffffff !important;
 }
 
 
 /* Slider ------------------------------------*/
 #slider {
-	background: #07ad87;
+	background: #0066ff;
 	border-top: 1px solid #52c6ab;
 	color: #ffffff !important;
 	margin:0;
@@ -408,7 +408,7 @@ ul.main-menu a.current {
 
 /* Services ------------------------------------*/
 .services {
-	background: #07ad87;
+	background: #0066ff;
 	color: #ffffff;
 	height: inherit;
 	margin:0;
@@ -549,7 +549,7 @@ ul.main-menu a.current {
 
 /* About ------------------------------------*/
 #about {
-	background: #07ad87;
+	background: #0066ff;
 	color: #ffffff;
 	position: relative;
 }
@@ -589,7 +589,7 @@ section.team span a {
 	color:#00a2ff;
 }
 section.team span a:hover {
-	color:#07ad87;
+	color:#0066ff;
 }
 
 
@@ -656,7 +656,7 @@ a.shoes span, a.photo span, a.music span, a.bike span {
 #staticsSlider h2.titleone {
 	line-height: 36px;
 	padding-top: 106px;
-	color:#07ad87;
+	color:#0066ff;
 	font-weight:400;
 	font-size:33px;
 }
@@ -705,7 +705,7 @@ a.shoes span, a.photo span, a.music span, a.bike span {
 	filter: alpha(opacity=100);
 }
 #staticsSlider .carousel-control:hover {
-	color: #07ad87;
+	color: #0066ff;
 }
 
 
@@ -794,7 +794,7 @@ ul.blog-posts li:last-child {
 
 /* Contact ------------------------------------*/
 #contact {
-	background-color: #07ad87;
+	background-color: #0066ff;
 	color: #ffffff;
 	margin-bottom: 0px !important;
 	padding-bottom:0 !important;
@@ -871,7 +871,7 @@ textarea {
 .modal-backdrop, .modal-backdrop.fade.in {
 	opacity: 0.8;
 	filter: alpha(opacity=80);
-	background: #07ad87;
+	background: #0066ff;
 }
 .modal {
 	border: none;
@@ -922,7 +922,7 @@ textarea {
 	font-weight: bold;
 }
 .prev-post:hover, .next-post:hover {
-	color: #07ad87;
+	color: #0066ff;
 }
 .close {
 	float: right;
@@ -938,7 +938,7 @@ textarea {
 	filter: alpha(opacity=100);
 }
 .close:hover {
-	color: #07ad87;
+	color: #0066ff;
 }
 
 .modal-body {
@@ -972,7 +972,7 @@ textarea {
 	border-right: 1px solid #44474d;
 }
 .modal-footer a:hover {
-	color: #07ad87;
+	color: #0066ff;
 }
 
 
@@ -1000,13 +1000,13 @@ textarea {
 	opacity: 0.6
 }
 a.work-music .image-overlay:hover {
-	background: #07ad87 url(../img/work-music.png) center no-repeat;
+	background: #0066ff url(../img/work-music.png) center no-repeat;
 }
 a.work-zoom .image-overlay:hover {
-	background: #07ad87 url(../img/work-zoom.png) center no-repeat;
+	background: #0066ff url(../img/work-zoom.png) center no-repeat;
 }
 a.work-link .image-overlay:hover {
-	background: #07ad87 url(../img/work-link.png) center no-repeat;
+	background: #0066ff url(../img/work-link.png) center no-repeat;
 }
 #workSlider .contNav {
 	height: 33px;
@@ -1040,10 +1040,10 @@ a.work-link .image-overlay:hover {
 	font-size: 25px;
 	font-weight: 100;
 	line-height: 25px;
-	color: #07ad87;
+	color: #0066ff;
 	text-align: center;
 	background: transparent;
-	border: 1px solid #07ad87;
+	border: 1px solid #0066ff;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -1052,7 +1052,7 @@ a.work-link .image-overlay:hover {
 }
 #workSlider .carousel-control:hover {
 	color: #ffffff;
-	background: #07ad87;
+	background: #0066ff;
 }
 #workSlider .carousel-control.right {
 	left: auto !important;
@@ -1078,10 +1078,10 @@ a.work-link .image-overlay:hover {
 	cursor: pointer;
 }
 #workSlider .carousel-indicators li:hover {
-	background-color: #07ad87;
+	background-color: #0066ff;
 }
 #workSlider .carousel-indicators li.active {
-	background-color: #07ad87;
+	background-color: #0066ff;
 }
 ul.work-elements {
 	margin-left: 0px !important;
@@ -1124,7 +1124,7 @@ div.work-element {
 	overflow: hidden;
 }
 .work-element a.view-all {
-	background: #07ad87;
+	background: #0066ff;
 	clear: both;
 	color: #fff;
 	display: block;
@@ -1145,10 +1145,10 @@ div.work-element {
 	font-size: 25px;
 	font-weight: 100;
 	line-height: 25px;
-	color: #07ad87;
+	color: #0066ff;
 	text-align: center;
 	background: transparent;
-	border: 1px solid #07ad87;
+	border: 1px solid #0066ff;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -1172,7 +1172,7 @@ div.work-element {
 }
 
 .work-element .carousel-control:hover {
-	background: #07ad87;
+	background: #0066ff;
 	color: #ffffff;
 }
 
@@ -1194,7 +1194,7 @@ div.element-top {
 }
 
 .element-details h2 {
-	color: #07ad87;
+	color: #0066ff;
 	font-size: 28px;
 	line-height: 45px;
 	font-weight:400;
@@ -1248,7 +1248,7 @@ div.element-top {
 }
 
 .nav-bottom a.view-all {
-	background: #07ad87;
+	background: #0066ff;
 	clear: both;
 	color: #fff;
 	display: block;
@@ -1262,7 +1262,7 @@ div.element-top {
 
 .nav-bottom a.carousel-control {
 	background: #fff;
-	border: 1px solid #07ad87;
+	border: 1px solid #0066ff;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -1274,7 +1274,7 @@ div.element-top {
 	bottom: 14px;
 }
 .nav-bottom a.carousel-control:hover {
-	background: #07ad87;
+	background: #0066ff;
 	color: #fff;
 }
 .nav-bottom a.carousel-control.left {
