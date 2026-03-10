@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- 哈萨克斯坦俄语环境，lang 设为 ru（俄语），如需中文可改为 zh-CN -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой личный сайт | Казахстан</title> <!-- 哈萨克斯坦风格俄语标题 -->
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        /* 移动端导航适配 */
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* 主内容区样式 */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 5%;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 3rem 0;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #6c757d;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* 卡片布局 */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            color: #6c757d;
+            line-height: 1.6;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="logo">Мой Сайт</div>
+        <div class="nav-links">
+            <a href="#home">Главная</a> <!-- 首页 -->
+            <a href="#about">О нас</a> <!-- 关于我们 -->
+            <a href="#services">Услуги</a> <!-- 服务 -->
+            <a href="#contact">Контакты</a> <!-- 联系方式 -->
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <div class="container">
+        <!-- 英雄区 -->
+        <section class="hero-section" id="home">
+            <h1>Добро пожаловать на мой сайт!</h1> <!-- 欢迎来到我的网站 -->
+            <p>Создан для жителей Казахстана, предлагаем качественные услуги и информацию, важную для вас.</p>
+            <!-- 为哈萨克斯坦居民打造，提供优质服务和对您重要的信息 -->
+        </section>
+
+        <!-- 卡片内容区 -->
+        <section id="services">
+            <div class="cards">
+                <div class="card">
+                    <h3>Профессиональные услуги</h3> <!-- 专业服务 -->
+                    <p>Мы предлагаем широкий спектр услуг, адаптированных под потребности жителей Казахстана. Качество и надежность - наш главный принцип.</p>
+                    <!-- 我们提供广泛的服务，适配哈萨克斯坦居民的需求。质量和可靠性是我们的核心原则 -->
+                </div>
+                <div class="card">
+                    <h3>Актуальная информация</h3> <!-- 最新信息 -->
+                    <p>Следим за последними новостями и событиями в Казахстане, чтобы держать вас в курсе всех важных изменений.</p>
+                    <!-- 关注哈萨克斯坦的最新新闻和事件，让您了解所有重要变化 -->
+                </div>
+                <div class="card">
+                    <h3>Поддержка 24/7</h3> <!-- 24/7支持 -->
+                    <p>Наша команда всегда готова помочь вам с любыми вопросами, связанными с нашими услугами и предложениями.</p>
+                    <!-- 我们的团队随时准备帮助您解决与我们服务和产品相关的任何问题 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我们 -->
+        <section id="about" style="margin-top: 3rem;">
+            <h2 style="color: #2c3e50; margin-bottom: 1.5rem;">О нас</h2>
+            <p style="color: #6c757d; line-height: 1.8;">
+                Мы небольшая команда специалистов, работающих на территории Казахстана уже более 5 лет. Наша миссия - предоставить жителям страны доступные и качественные услуги, учитывая особенности культуры и потребностей региона. Все наши сотрудники владеют русским и казахским языками, что позволяет нам эффективно взаимодействовать с клиентами.
+            </p>
+            <!-- 我们是一支小而专业的团队，在哈萨克斯坦境内运营已超过5年。我们的使命是为该国居民提供实惠且优质的服务，同时考虑到地区的文化特点和需求。我们所有员工都掌握俄语和哈萨克语，这使我们能够与客户有效沟通 -->
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact" style="margin-top: 3rem;">
+            <h2 style="color: #2c3e50; margin-bottom: 1.5rem;">Контакты</h2>
+            <p style="color: #6c757d; line-height: 1.8;">
+                📞 Телефон: +86 150-1355-0567<br>
+                📧 Email: bcf8522@gmail.com<br>
+                📍 Адрес: Казахстан, Алматы, ул. Толе би, 123
+            </p>
+            <!-- 电话/邮箱/地址：哈萨克斯坦阿拉木图市托列比大街123号 -->
+        </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="logo">Мой Сайт</div>
+        <p>© 2026 Все права защищены | Казахстан, Алматы</p>
+        <!-- 2026 保留所有权利 | 哈萨克斯坦，阿拉木图 -->
+    </footer>
+</body>
+</html>
