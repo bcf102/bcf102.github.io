@@ -260,7 +260,7 @@ ul.main-menu a.current {
 /* Slider ------------------------------------*/
 #slider {
 	background: #0066ff;
-	border-top: 1px solid #52c6ab;
+	border-top: 1px solid #ffffff;
 	color: #ffffff !important;
 	margin:0;
 	padding:0;
@@ -415,7 +415,7 @@ ul.main-menu a.current {
 	padding:0;
 }
 .services-border {
-	border-top: 1px solid #39bd9f;
+	border-top: 1px solid #ffffff;
 }
 .service h2 {
 	text-align: center;
@@ -431,7 +431,7 @@ ul.main-menu a.current {
 	line-height: 21px;
 	font-weight: 400;
 	padding: 19px 19px 19px 19px;
-	border: 1px solid #39bd9f;
+	border: 1px solid #ffffff;
 	background: url(../img/but-bg.png);
 	margin-right: 30px;
 	margin-top: 15px;
