@@ -456,6 +456,13 @@ ul.main-menu a.current {
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
+.service-alert {
+	display: block;
+	height: 110px;
+	background: url(../img/alert.png) center no-repeat;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 .service-hosting {
 	display: block;
 	height: 110px;
